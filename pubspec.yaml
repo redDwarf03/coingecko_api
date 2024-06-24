@@ -5,12 +5,11 @@ repository: https://github.com/yegor-pelykh/coingecko_api
 issue_tracker: https://github.com/yegor-pelykh/coingecko_api/issues
 
 environment:
-  sdk: '>=2.18.0 <3.0.0'
+  sdk: ">=3.3.0 <4.0.0"
 
 dev_dependencies:
-  lints: ^2.0.1
   test: ^1.23.1
 
 dependencies:
-  dio: ^5.0.1
-  intl: ^0.18.0
+  dio: ^5.4.3+1
+  intl: ^0.19.0
